@@ -39,7 +39,7 @@ if (curl_errno($ch)) {
 curl_close ($ch);
 $output =  json_decode($result,true);
     
-return $outpu;     
+return $output;     
 
 }
 
